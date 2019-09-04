@@ -1,0 +1,29 @@
+.header{
+    width: 100vw;
+    height: 60vh;
+    background-image:url("./images/online-shopping.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+     position: relative;
+     text-align: center;
+     padding: 20px;
+     border-radius: 5px;
+    border: 2px dotted black;
+}   
+.inner h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inner button{
+    display: inline-block;
+    outline:none;
+    border-radius: 5px;
+    border: 2px solid black;
+   cursor:pointer;
+    font-size: 20px; 
+}

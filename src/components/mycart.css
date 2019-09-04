@@ -1,0 +1,49 @@
+.pos{
+    position: fixed;
+    right: 10px;
+    top: 110px;
+    background: black;
+    border: 2px solid white;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.closebtn{
+   margin-left: 200px;
+   background: red;
+   padding: 5px;
+}
+.Cart{
+    width: 400px;
+    height: 440px;
+    color: white;
+    overflow: auto;
+}
+.IteminCart{
+    height: 100px;
+    padding: 10px;
+    display: flex;
+}
+.product{
+    border: 2px solid white;
+}
+.image{
+    flex:1;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.content{
+    display: flex;
+    flex:5;
+}
+.tax{
+    font-size: 14px;
+}
+.quantity{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}

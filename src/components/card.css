@@ -1,0 +1,53 @@
+.card{
+    width: 300px;
+    border: 1px solid;
+    margin: 5px;
+    color: white;
+    box-shadow: 0px 0px 5px 2px black;
+    background: linear-gradient(45deg,blue,rgb(0, 0, 0));
+}
+.title{
+   text-align:center; 
+   height: 100px;
+}
+.image{
+    width: 250px;
+    height: 200px;
+    padding-left: 25px;
+    text-align: center
+}
+.desc{
+    text-align: justify;
+    font-style: italic;
+    padding: 5px;
+}
+.price{
+    display: inline-block;
+    font-size:3rem;
+    padding-left: 5px;;
+     width: 40%;}
+.op{
+    display: inline-block;
+    text-decoration: line-through;
+    width: 50%;
+}
+.btn{
+    text-align: center;
+
+}
+.btn button{
+    font-size: 20px;
+    display: inline-block;
+    outline: none;
+    width: 150px;
+    padding: 5px;
+    border-radius: 15px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn button:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 3px 5px greenyellow;
+}
